@@ -8,8 +8,8 @@
     <ProjectGuid>{71FB36A4-44E5-41C3-AB7F-68ABF14C0EB0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MTW.WorkBackup</RootNamespace>
-    <AssemblyName>MTW.WorkBackup</AssemblyName>
+    <RootNamespace>MTW.Directory7ZipBackup</RootNamespace>
+    <AssemblyName>Directory7ZipBackup</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ManifestCertificateThumbprint>2B89F6709E753F1FA41FE57EB346001215960212</ManifestCertificateThumbprint>
@@ -104,6 +104,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="config\directory.config.yml" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
