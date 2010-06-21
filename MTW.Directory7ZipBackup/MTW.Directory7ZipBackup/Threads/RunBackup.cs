@@ -73,7 +73,6 @@ namespace MTW.Directory7ZipBackup.Threads
             /*********************************************************/
             #region setup 7zip
 
-            //SevenZipExtractor.SetLibraryPath(@"C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\MTW.Directory7ZipBackup\MTW.Directory7ZipBackup\7z.dll");
             SevenZipCompressor.SetLibraryPath("7z.dll");
             _mainForm.UpdateActionLabel("Backing Up:");
             _mainForm.UpdatePercentage("0");

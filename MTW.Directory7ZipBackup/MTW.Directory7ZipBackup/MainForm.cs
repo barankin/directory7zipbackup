@@ -26,6 +26,7 @@ using System.Windows.Forms;
 using System.Threading;
 using MTW.Directory7ZipBackup.Threads;
 using System.IO;
+using MTW.Directory7ZipBackup.Properties;
 
 namespace MTW.Directory7ZipBackup
 {
@@ -48,6 +49,10 @@ namespace MTW.Directory7ZipBackup
             _runBackup = new RunBackup();
             _compressionProgressBar.Minimum = 0;
             _compressionProgressBar.Maximum = 100;
+
+            _backupDestTextBox.Text = Settings.Default.BackupStorageLocation;
+            _backupSourceTextBox.Text = Settings.Default.DirectorytoBackup;
+
             ThreadPool.QueueUserWorkItem(_loadConfigData.Execute, new object[] 
             { 
                     this, _backupDestTextBox.Text, _backupSourceTextBox.Text 
@@ -73,9 +78,7 @@ namespace MTW.Directory7ZipBackup
                 }
                 #endregion
             }
-            catch (Exception)
-            {
-            }
+            catch (Exception) { }
         }
 
         private void _destButton_Click(object sender, EventArgs e)
@@ -97,9 +100,7 @@ namespace MTW.Directory7ZipBackup
                 }
                 #endregion
             }
-            catch (Exception)
-            {
-            }
+            catch (Exception) { }
         }
 
         private void button3_Click(object sender, EventArgs e)

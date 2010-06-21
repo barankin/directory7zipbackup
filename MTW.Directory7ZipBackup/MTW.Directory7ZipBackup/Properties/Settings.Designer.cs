@@ -8,8 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MTW.Directory7ZipBackup.Properties
-{
+namespace MTW.Directory7ZipBackup.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -21,6 +20,30 @@ namespace MTW.Directory7ZipBackup.Properties
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DirectorytoBackup {
+            get {
+                return ((string)(this["DirectorytoBackup"]));
+            }
+            set {
+                this["DirectorytoBackup"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string BackupStorageLocation {
+            get {
+                return ((string)(this["BackupStorageLocation"]));
+            }
+            set {
+                this["BackupStorageLocation"] = value;
             }
         }
     }

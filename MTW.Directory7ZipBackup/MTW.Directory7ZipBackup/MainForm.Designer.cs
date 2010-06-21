@@ -74,7 +74,6 @@ namespace MTW.Directory7ZipBackup
             this._backupSourceTextBox.Name = "_backupSourceTextBox";
             this._backupSourceTextBox.Size = new System.Drawing.Size(920, 20);
             this._backupSourceTextBox.TabIndex = 2;
-            this._backupSourceTextBox.Text = "F:\\Visual Studio 2008";
             // 
             // _backupDestTextBox
             // 
@@ -84,7 +83,6 @@ namespace MTW.Directory7ZipBackup
             this._backupDestTextBox.Name = "_backupDestTextBox";
             this._backupDestTextBox.Size = new System.Drawing.Size(920, 20);
             this._backupDestTextBox.TabIndex = 5;
-            this._backupDestTextBox.Text = "C:\\Documents and Settings\\rankb\\My Documents\\Backup";
             // 
             // label2
             // 
@@ -181,7 +179,7 @@ namespace MTW.Directory7ZipBackup
             this._currentFileDirLabel.TabIndex = 13;
             this._currentFileDirLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,7 +198,7 @@ namespace MTW.Directory7ZipBackup
             this.Controls.Add(this.label1);
             this.Controls.Add(this._sourceButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "My Backup";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
