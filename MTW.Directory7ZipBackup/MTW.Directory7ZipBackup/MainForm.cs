@@ -25,8 +25,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading;
 using MTW.Directory7ZipBackup.Threads;
-using System.IO;
 using MTW.Directory7ZipBackup.Properties;
+using System.IO;
 
 namespace MTW.Directory7ZipBackup
 {
@@ -121,6 +121,21 @@ namespace MTW.Directory7ZipBackup
                     this, _backupDestTextBox.Text, _backupSourceTextBox.Text , _passwordTextBox.Text
                 });
             }
+        }
+
+        private void _backupSourceTextBox_TextChanged(object sender, EventArgs e)
+        {
+            Settings.Default.DirectorytoBackup = _backupSourceTextBox.Text;
+        }
+
+        private void _backupDestTextBox_TextChanged(object sender, EventArgs e)
+        {
+            Settings.Default.BackupStorageLocation = _backupDestTextBox.Text;
+        }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Settings.Default.Save();
         }
     }
 }

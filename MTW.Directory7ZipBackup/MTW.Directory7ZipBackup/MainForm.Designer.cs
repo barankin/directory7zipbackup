@@ -74,6 +74,7 @@ namespace MTW.Directory7ZipBackup
             this._backupSourceTextBox.Name = "_backupSourceTextBox";
             this._backupSourceTextBox.Size = new System.Drawing.Size(920, 20);
             this._backupSourceTextBox.TabIndex = 2;
+            this._backupSourceTextBox.TextChanged += new System.EventHandler(this._backupSourceTextBox_TextChanged);
             // 
             // _backupDestTextBox
             // 
@@ -83,6 +84,7 @@ namespace MTW.Directory7ZipBackup
             this._backupDestTextBox.Name = "_backupDestTextBox";
             this._backupDestTextBox.Size = new System.Drawing.Size(920, 20);
             this._backupDestTextBox.TabIndex = 5;
+            this._backupDestTextBox.TextChanged += new System.EventHandler(this._backupDestTextBox_TextChanged);
             // 
             // label2
             // 
@@ -201,6 +203,7 @@ namespace MTW.Directory7ZipBackup
             this.Name = "MainForm";
             this.Text = "My Backup";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
