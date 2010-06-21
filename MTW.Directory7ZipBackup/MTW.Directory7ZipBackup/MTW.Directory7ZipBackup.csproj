@@ -145,6 +145,7 @@
   <ItemGroup>
     <Content Include="1276695625_Time-Machine.ico" />
     <Content Include="7z.dll" />
+    <Content Include="gpl.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
