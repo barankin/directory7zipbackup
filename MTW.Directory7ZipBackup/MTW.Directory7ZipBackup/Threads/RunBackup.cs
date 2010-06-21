@@ -1,4 +1,21 @@
-﻿using System;
+﻿/*   
+    This file is part of MTW.Directory7ZipBackup.
+
+    MTW.Directory7ZipBackup is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    MTW.Directory7ZipBackup is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -56,7 +73,8 @@ namespace MTW.Directory7ZipBackup.Threads
             /*********************************************************/
             #region setup 7zip
 
-            SevenZipExtractor.SetLibraryPath("7z.dll");
+            //SevenZipExtractor.SetLibraryPath(@"C:\Documents and Settings\rankb\My Documents\Visual Studio 2008\Projects\MTW.Directory7ZipBackup\MTW.Directory7ZipBackup\7z.dll");
+            SevenZipCompressor.SetLibraryPath("7z.dll");
             _mainForm.UpdateActionLabel("Backing Up:");
             _mainForm.UpdatePercentage("0");
             _mainForm.UpdateCurrentFileDirLabel("");
