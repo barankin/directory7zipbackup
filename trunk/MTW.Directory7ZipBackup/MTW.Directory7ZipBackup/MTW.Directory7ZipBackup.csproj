@@ -14,10 +14,10 @@
     <FileAlignment>512</FileAlignment>
     <ManifestCertificateThumbprint>2B89F6709E753F1FA41FE57EB346001215960212</ManifestCertificateThumbprint>
     <ManifestKeyFile>MTW.WorkBackup_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
     <TargetZone>LocalIntranet</TargetZone>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ApplicationIcon>1276695625_Time-Machine.ico</ApplicationIcon>
     <PublishUrl>C:\temp\</PublishUrl>
