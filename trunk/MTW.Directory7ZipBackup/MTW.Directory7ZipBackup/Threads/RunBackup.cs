@@ -27,7 +27,6 @@ namespace MTW.Directory7ZipBackup.Threads
 {
     class RunBackup
     {
-        /*************************************************************/
         #region Fields
 
         private MainForm _mainForm;
@@ -37,9 +36,7 @@ namespace MTW.Directory7ZipBackup.Threads
         private string _password = "";
 
         #endregion
-        /*************************************************************/
 
-        /*************************************************************/
         #region Contructors
 
         public RunBackup()
@@ -47,9 +44,7 @@ namespace MTW.Directory7ZipBackup.Threads
         }
 
         #endregion
-        /*************************************************************/
 
-        /*************************************************************/
         #region Public Methods
 
         public void Execute(Object threadData)
@@ -108,13 +103,5 @@ namespace MTW.Directory7ZipBackup.Threads
         }
 
         #endregion
-        /*************************************************************/
-
-        /*************************************************************/
-        #region Private Methods
-
-
-        #endregion
-        /*************************************************************/
     }
 }
