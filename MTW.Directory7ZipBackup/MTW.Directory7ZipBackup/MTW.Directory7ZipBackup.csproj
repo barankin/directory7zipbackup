@@ -60,6 +60,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SevenZipSharp, Version=0.64.3933.16754, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SevenZipSharp\SevenZip\bin\Release\SevenZipSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -160,12 +164,6 @@
     <Content Include="1276695625_Time-Machine.ico" />
     <Content Include="7z.dll" />
     <Content Include="gpl.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SevenZipSharp\SevenZip\SevenZip.csproj">
-      <Project>{4960DD14-3431-47EC-B9D9-9D2730A98DC3}</Project>
-      <Name>SevenZip</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
