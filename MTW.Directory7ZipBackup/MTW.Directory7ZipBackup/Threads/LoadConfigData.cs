@@ -19,8 +19,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Yaml.Serialization;
 using System.IO;
+using System.Yaml.Serialization;
 
 namespace MTW.Directory7ZipBackup.Threads
 {

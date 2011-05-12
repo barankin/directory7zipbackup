@@ -25,9 +25,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MTW.WorkBackup")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SNC-Lavalin inc.")]
+[assembly: AssemblyCompany("Mash Tun Web Services")]
 [assembly: AssemblyProduct("MTW.WorkBackup")]
-[assembly: AssemblyCopyright("Copyright © SNC-Lavalin inc. 2010")]
+[assembly: AssemblyCopyright("Copyright © Mash Tun Web Services 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
