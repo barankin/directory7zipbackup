@@ -1,0 +1,1 @@
+Small tool to compress and copy a directory
